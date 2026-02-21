@@ -25,7 +25,6 @@ class Developer(Employee):
 class Intern(Employee):
     pass
 
-# Read input
 line = input().split()
 emp_type = line[0]
 name = line[1]
@@ -44,3 +43,4 @@ else:  # Intern
 
 total = emp.total_salary()
 print(f"Name: {name}, Total: {total:.2f}")
+
